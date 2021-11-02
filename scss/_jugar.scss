@@ -1,0 +1,41 @@
+
+main { 
+    @include background();
+    @include sections ();
+
+    section {    
+        
+
+        .tablita {
+
+            width: 60%;
+            
+            display:block; margin: auto;
+            padding: 0.8rem;
+  
+            .tabla {
+
+                
+                padding: 2px;
+                margin: 5px;
+                background: linear-gradient(black,navy,navy,black);; color: $colortextotabla;
+                font-family: 'Roboto Mono', monospace;
+                text-align: left;
+                margin: auto;
+                border: $colorbordes;
+
+                th { 
+                    padding: 10px;
+                    text-align: center;}
+                    
+                td {padding: 5px;
+                        text-align: center;
+                    margin-left: 50px;}
+    
+            }
+    
+         }
+
+    }
+
+}

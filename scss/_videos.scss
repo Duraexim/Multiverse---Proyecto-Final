@@ -1,0 +1,39 @@
+
+main { 
+
+    @include background();
+    @include sections ();
+
+        .tituloVideos{ 
+
+            .h2 {text-decoration:underline; }           
+           
+        }
+
+        .videos {
+            
+            align-items: center;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            
+            .video1{ 
+              
+                    .vid1 { 
+                            border: $colorbordes;
+                            padding: 0.4rem;
+                         }
+                }
+            
+            .video2 { 
+
+                        .vid2 { 
+                            border: $colorbordes;
+                            padding: 0.4rem;
+                        }  
+                    }
+
+        }
+
+}
+
+

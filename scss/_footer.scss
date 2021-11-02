@@ -1,0 +1,21 @@
+footer { 
+
+    .footer { 
+
+        @include sections ();
+        
+            .footerNav {
+
+                 background-color: $colornavs;
+
+                .linksFooter {
+                    
+                    @include navs ();
+
+                }        
+
+            } 
+
+     }
+
+}

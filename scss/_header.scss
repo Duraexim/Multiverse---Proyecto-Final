@@ -1,0 +1,13 @@
+header {
+
+    .micolor{ 
+        
+        background-color: $colornavs; 
+        
+        .linksHeader { 
+                     @include navs ();
+             }
+        }
+
+}
+

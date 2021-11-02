@@ -1,0 +1,91 @@
+@mixin sections () { 
+
+    
+
+
+
+                h1, h2,h3  {
+                    color: $colortitulos;
+                    font-family: 'Press Start 2P', monospace;
+                    text-align:center;
+                    padding: 10px;
+                }
+                
+                
+                p, h4 {
+                    color: $colortexto;
+                    font-family: 'Roboto Mono', monospace;
+                    text-align: center;
+                    padding: 10px;
+                    margin:10px
+                 }
+
+                 a { color: $colortitulos; text-decoration: none;}
+
+
+
+}
+
+@mixin background {
+
+    
+    background-color: $colorbackground;
+    text-align:center;
+   padding: 10px; 
+    
+}
+
+
+@mixin navs {
+
+    a { .icono { width: 25px;} 
+            }
+
+            button{ }
+
+            .enlaces {
+
+                    ul { 
+                    
+                        font-size: 1rem;
+            
+                        li {
+                        
+                            a {   
+                            color: $colorlinks;
+              
+                                &:hover{
+                                color: $colorlinkshover;
+                                margin: auto; 
+                                background-color: $colorlinksbackgroundhover;
+                                border-radius: 50%;
+                                border: $colornavs double 0.35rem }
+                            }
+                        }
+                        
+                        .dropdown-menu{ 
+
+                            background-color: $colornavs;
+                      
+                            .dropdown-item{
+
+                                background-color: $colornavs;
+                                text-align: center;
+
+                                &:hover {
+                                        color: $colorlinkshover;
+                                        margin: auto; 
+                                        background-color: $colorlinksbackgroundhover;
+                                        border-radius: 50%;
+                                        border: $colornavs double 0.35rem
+                                    }
+                            
+                            }
+                        }
+
+
+                    }   
+             }
+
+}
+

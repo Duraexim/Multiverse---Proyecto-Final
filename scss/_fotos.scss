@@ -1,0 +1,24 @@
+
+main{ 
+
+    @include background();
+    @include sections ();
+
+    .tituloFotos{ 
+
+                .h2 { text-decoration: underline;}
+    }
+
+    .galeria { 
+            width: auto;
+            border: $colorbordes;
+            padding: 0.4rem;
+
+            
+    }
+    
+
+
+
+
+}

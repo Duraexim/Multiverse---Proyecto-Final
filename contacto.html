@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./scss/miestilo.css">
+    <link rel="icon" href="./media/NFT_Icon.ico">
+    <meta name="keywords" content= "Multiverse Contacto, Contacto, Quienes Somos, Información sobre Multiverse, Equipo de desarrollo, Multiverse Contact">
+    <meta name="description" content="Contáctanos para recibir más información del proyecto y conocer más sobre nosotros.">
+    <title>Contacto - Multiverse</title>
+</head>
+<body>
+        
+  <header class="container header" id="inicio">  
+    <!--barra de navegación-->
+    <nav class="navbar navbar-expand-lg navbar-light micolor">
+        <div class="container-fluid linksHeader">
+          <a class="navbar-brand" href="./index.html"><img class="icono" src="./media/NFT_Icon.png" width="25px" alt="Icono: Logo del juego"></a>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse enlaces" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./jugar.html">Jugar</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Videos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./videos.html">Videos locales</a></li>
+                  <li><a class="dropdown-item" href="https://www.youtube.com">Youtbe</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./fotos.html">Fotos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
+             
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+    
+  </header>
+           
+    <main class="container">
+        <!--Sección de contacto, información sobre nuestro equipo-->
+        <section class="tituloContacto" id="contacto">            
+          <div class="contacto"><h1 class="h1"><strong>Obtén más información al contactarnos, haz clic en el siguiente botón:</strong></h1></div>
+       
+  </section>
+
+
+        <!-- Button trigger modal -->
+        <button type="button" class="container btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Contacto
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+          <div class="modal-content fondoModal">
+              <div class="modal-header botonModal ">
+              <h5 class="modal-title botonTitulo" id="exampleModalLabel">Contacto</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body backgroundContacto">
+              Puede enviarnos un email al <a class=" a contacto" href="mailto: email@gmail.com">emailinventado@gmail.com</a>
+              <section class="formularios"> 
+                
+                <!--formulario, en donde el usuario puede suscribirse para recibir novedades sobre el juego-->
+
+                <form class="form formulario" action="#">
+                    <fieldset class="fieldset">
+                        <p class="formulario">Suscribete para recibir siempre todas las novedades:</p>
+                        <div>
+                            <label class="label" for="email">Ingrese su email *</label>
+                            <input type="email" name="email" required>
+                        </div>
+          
+                        <div>
+                            <label class="label" for="pais">Nacionalidad</label>
+                            <select name="pais" id="">
+                                <option value="arg">Argentina</option>
+                                <option value="bra">Brasil</option>
+                                <option value="esp">España</option>
+                                <option value="it">Italia</option>
+                                <option value="ot">Otro</option>
+                            </select>
+                        </div>
+                        
+                        <div>
+                            <label class="label" for="sexo">Elige tu genero:</label>
+                            <input class="input" type="radio" name="genero" value="hombre"> Masculino
+                            <input class="input" type="radio" name="genero" value="mujer"> Femenino
+                             <br>  
+                        </div>
+                        
+        
+                        <div>
+                            <label class="label" for="nac">Fecha de Nacimiento</label>
+                            <input class="input" type="date" name="nac">
+                            <br>
+                        </div>
+                     
+                        <div>
+                            <label class="label" for="terminos">Acepto los terminos y condiciones</label>
+                            <input class="input" type="checkbox" name="terminos" required>
+                        </div>
+        
+                        <div>
+                            <input class="input" type="submit" value="enviar datos">
+                            <input class="input" type="reset" value="borrar formulario"> 
+                        </div>  
+                    </fieldset> 
+        
+        
+                </form>
+            </section>
+              </div>
+              <div class="modal-footer">
+              
+              </div>
+          </div>
+          </div>
+      </div>
+
+      <section> 
+        <h2>Nuestro equipo:</h2>
+        <p>En Multiverse nos apasionan los videojuegos y las criptomonedas, por eso te invitamos a conocer más sobre los integrantes de nuestro equipo.</p>
+  
+        <p>***sección en desarrollo***</p>
+      
+      </section>
+  
+        
+        
+    </main>   
+    
+   
+
+
+            <!--footer-->
+            <footer class="container">
+
+              <div class="footer">
+
+                  <h4 class="h4">Visita nuestras redes sociales</h4>
+                    <nav class="navbar navbar-expand-lg navbar-light footerNav">
+                      <div class="container-fluid linksFooter">
+                        <a class="navbar-brand" href="./index.html"><img class="icono" src="./media/NFT_Icon.png"  alt="Icono: Logo del juego"></a>
+                        
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse enlaces" id="navbarSupportedContent">
+                          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                              <a class="nav-link" href="https://www.twitter.com" target="_blank">Twitter</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="https://www.instagram.com" target="_blank">Instagram</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                              <a class="nav-link" href="https://www.youtube.com" target="_blank">Youtube</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#inicio">Volver a inicio</a>
+                            </li>
+                          
+                          </ul>
+                          
+                        </div>
+                      </div>
+                    </nav>       
+
+          
+                  <p class="p">@todos los derechos reservados</p>
+
+              </div>
+          </footer>
+
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    
+</body>
+</html>

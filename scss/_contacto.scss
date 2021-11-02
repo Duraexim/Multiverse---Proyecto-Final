@@ -1,0 +1,58 @@
+main { 
+
+    @include background();
+    @include sections ();
+
+    .tituloContacto { 
+
+        .contacto { .h1{ font-size:1rem;} }
+    }
+    
+
+    .fondoModal { background-color: $colornavs;}
+    
+    .botonModal {
+        
+        background-color: $colornavs;
+        .botonTitulo { }
+    
+    }
+
+    .backgroundContacto {
+        color:$colortextoformulario;
+        background: linear-gradient(to left, rgb(0, 0, 0), rgb(5, 33, 65), rgb(5, 33, 65),rgb(0, 0, 0)) ;
+        }
+
+    .formularios { 
+
+        
+
+        .formulario { 
+            color:  $colortextoformulario;
+            font-family: 'Roboto Mono', monospace;
+            text-align: left;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            
+        }
+
+
+    }
+    
+    
+    
+    
+    
+    
+   
+    
+    
+   
+
+
+
+
+}
+

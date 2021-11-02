@@ -1,0 +1,56 @@
+main {
+    
+    
+    @include background();
+    @include sections ();
+
+    .multiverse { 
+
+        .titilante{   
+    
+            animation-duration: 2s;
+            animation-name: titilante;
+            animation-iteration-count: infinite;
+            &:hover{ transform: scale(1.5,1.5);}
+        }
+
+          
+         
+    }
+
+    .juego { 
+            .elJuego { 
+               
+            }
+
+            
+            .nft { 
+                
+                .token{ float:left; padding: 5px;
+                
+                    &:hover {transform: scale(1.2,1.2);}
+                }
+            }
+       
+    }
+
+}
+
+
+@keyframes titilante {
+    25% {
+        opacity: 0.25;
+        }
+    50% {
+        opacity: .5;
+        }
+
+    75% {
+            opacity: .75;
+            }  
+    100% {
+      opacity: 1;
+        }
+}
+      
+
