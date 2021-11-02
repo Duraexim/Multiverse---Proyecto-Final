@@ -11,6 +11,13 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.container {
+  width: 100%;
+  margin: auto;
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+
 header .micolor {
   background-color: #f09c00;
 }
@@ -60,12 +67,12 @@ main {
 
 main h1, main h2, main h3 {
   color: #f09c00;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Press Start 2P', monospace;
   text-align: center;
   padding: 10px;
 }
 
-main p {
+main p, main h4 {
   color: white;
   font-family: 'Roboto Mono', monospace;
   text-align: center;
@@ -140,12 +147,12 @@ main {
 
 main h1, main h2, main h3 {
   color: #f09c00;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Press Start 2P', monospace;
   text-align: center;
   padding: 10px;
 }
 
-main p {
+main p, main h4 {
   color: white;
   font-family: 'Roboto Mono', monospace;
   text-align: center;
@@ -196,12 +203,12 @@ main {
 
 main h1, main h2, main h3 {
   color: #f09c00;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Press Start 2P', monospace;
   text-align: center;
   padding: 10px;
 }
 
-main p {
+main p, main h4 {
   color: white;
   font-family: 'Roboto Mono', monospace;
   text-align: center;
@@ -214,11 +221,11 @@ main a {
   text-decoration: none;
 }
 
-main .titulo .contacto .h1 {
+main .tituloContacto .contacto .h1 {
   font-size: 1rem;
 }
 
-main .fondo {
+main .fondoModal {
   background-color: #f09c00;
 }
 
@@ -226,9 +233,10 @@ main .botonModal {
   background-color: #f09c00;
 }
 
-main .background {
+main .backgroundContacto {
   color: #f09c00;
-  background-color: #052141;
+  background: -webkit-gradient(linear, right top, left top, from(black), color-stop(#052141), color-stop(#052141), to(black));
+  background: linear-gradient(to left, black, #052141, #052141, black);
 }
 
 main .formularios .formulario {
@@ -248,12 +256,24 @@ main .formularios .formulario {
       justify-content: space-around;
 }
 
+footer .footer h1, footer .footer h2, footer .footer h3 {
+  color: #f09c00;
+  font-family: 'Press Start 2P', monospace;
+  text-align: center;
+  padding: 10px;
+}
+
 footer .footer p, footer .footer h4 {
   color: white;
   font-family: 'Roboto Mono', monospace;
   text-align: center;
   padding: 10px;
   margin: 10px;
+}
+
+footer .footer a {
+  color: #f09c00;
+  text-decoration: none;
 }
 
 footer .footer .footerNav {
@@ -280,6 +300,23 @@ footer .footer .footerNav .linksFooter .enlaces ul li a:hover {
   border: #f09c00 double 0.35rem;
 }
 
+footer .footer .footerNav .linksFooter .enlaces ul .dropdown-menu {
+  background-color: #f09c00;
+}
+
+footer .footer .footerNav .linksFooter .enlaces ul .dropdown-menu .dropdown-item {
+  background-color: #f09c00;
+  text-align: center;
+}
+
+footer .footer .footerNav .linksFooter .enlaces ul .dropdown-menu .dropdown-item:hover {
+  color: #006eff;
+  margin: auto;
+  background-color: #ffd752;
+  border-radius: 50%;
+  border: #f09c00 double 0.35rem;
+}
+
 main {
   background-color: rgba(133, 133, 133, 0.082);
   text-align: center;
@@ -288,12 +325,12 @@ main {
 
 main h1, main h2, main h3 {
   color: #f09c00;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Press Start 2P', monospace;
   text-align: center;
   padding: 10px;
 }
 
-main p {
+main p, main h4 {
   color: white;
   font-family: 'Roboto Mono', monospace;
   text-align: center;
@@ -306,11 +343,8 @@ main a {
   text-decoration: none;
 }
 
-main .titulo .h2 {
-  color: #f09c00;
-  font-family: 'Press Start 2P', cursive;
-  text-align: center;
-  padding: 10px;
+main .tituloFotos .h2 {
+  text-decoration: underline;
 }
 
 main .galeria {
@@ -327,12 +361,12 @@ main {
 
 main h1, main h2, main h3 {
   color: #f09c00;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Press Start 2P', monospace;
   text-align: center;
   padding: 10px;
 }
 
-main p {
+main p, main h4 {
   color: white;
   font-family: 'Roboto Mono', monospace;
   text-align: center;
@@ -345,6 +379,9 @@ main a {
   text-decoration: none;
 }
 
+main .tituloVideos .h2 {
+  text-decoration: underline;
+}
 
 main .videos {
   -webkit-box-align: center;
@@ -378,7 +415,7 @@ main .videos .video2 .vid2 {
     font-size: 12px;
   }
   a {
-    font-size: 8px;
+    font-size: 13px;
   }
   .banner {
     width: 300px;
@@ -425,7 +462,7 @@ main .videos .video2 .vid2 {
     font-size: 14px;
   }
   a {
-    font-size: 10px;
+    font-size: 13px;
   }
   .banner {
     width: 650px;
@@ -474,7 +511,7 @@ main .videos .video2 .vid2 {
     font-size: 18px;
   }
   a {
-    font-size: 15px;
+    font-size: 18px;
   }
   table {
     width: 1080px;
@@ -524,7 +561,7 @@ main .videos .video2 .vid2 {
     font-size: 18px;
   }
   a {
-    font-size: 15px;
+    font-size: 18px;
   }
   table {
     width: 1080px;
