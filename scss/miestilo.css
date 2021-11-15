@@ -650,12 +650,12 @@ main .videos .video2 .vid2 {
         justify-content: space-around;
   }
   .vid1 {
-    width: 500px;
-    height: 300px;
+    width: 250px;
+    height: 150px;
   }
   .vid2 {
-    width: 500px;
-    height: 300px;
+    width: 250px;
+    height: 150px;
   }
   .img {
     width: 80%;
