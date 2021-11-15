@@ -6,28 +6,72 @@
             font-size: 16px;}
     .h3  { 
                 font-size: 10px;}         
-    .p { font-size: 12px;} 
+    .p { font-size: 13px;} 
      
     a { font-size: 13px;} 
-    .banner { width: 300px;}
-    table { width: 50px;}
+    .banner { width: 50%;} 
+    .galeria { width: 85%;}  
     
-    .token {
-        width: 75px;
-        height: 75px;
-            } 
+    
+    th,td {font-size: 13px;}
+     
+    
+    
+    .containerContacto { 
+                display:block;
+                .cardContacto { 
+                    width: 70%;
+                    margin: auto;
+                    margin-top: 2rem;
+            
+                }
 
-    .videos {display: block;
+            }
+
+    .containerClases {
+        
+             display: block;
+
+            .cardClases{ 
+
+                    width: 70%;
+                    
+                    .contenido { 
+                            h4 {font-size: 2rem;}
+                            p {font-size: 1rem;}
+                            a {font-size: 1rem;}
+                        
+                    }
+                 }
+         }
+    
+
+    
+    
+    .token {width: 75px; height: 75px; } 
+
+    .videos {
+        
+        display: block;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
         }  
         
-    .vid1 { width: 250px; height: 150px;}
-    .vid2 { width: 250px; height: 150px;}   
+    .vid1 { width: 500px; height: 300px; }
+    .vid2 { width: 500px; height: 300px;}  
+    
+    .img {width: 80%;}
 
     
 }
+
+
+
+
+
+
+
 
 @media only screen and (min-width:768px) {
     
@@ -36,27 +80,63 @@
     .h3, .h4  {font-size: 15px;} 
     .p { font-size: 14px;} 
     a { font-size: 13px;} 
-    .banner { width: 650px;} 
-    table { width: 750px;}  
+    .banner { width: 50%;}
+    .galeria { width: 75%;}  
+    
+    th,td {font-size: 15px;}
+     
 
-    .token{
-        width: 150px;
-        height: 150px;
-            } 
+    .token{width: 150px;height: 150px;} 
 
     .videos {display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;}
         
-        .vid1 { width: 300px; height: 180px;
+        .vid1 { width: 500px; height: 300px; }
+        .vid2 { width: 500px; height: 300px;}  
+
+    .img {width: 50%;}
+    
+    .containerContacto { 
+                display:block;
+                .cardContacto { 
+                    width: 70%;
+                    margin: auto;
+                    margin-top: 2rem;
+            
+                }
+
             }
-    
-    
-        .vid2  {
-            width:300px; height: 180px;}     
+
+
+    .containerClases {
+        
+        display: block;
+
+        
+
+       .cardClases{
+                
+               width: 70%;        
+               .contenido { 
+                       h4 {font-size: 2rem;}
+                       p {font-size: 1rem;}
+                       a {font-size: 1rem;}
+                   
+               }
+            }
+    }
+
       
 }
+
+
+
+
+
+
+
 
 @media only screen and (min-width:1024px) {
 
@@ -65,13 +145,11 @@
     .h3, .h4 {font-size: 20px;}     
     .p  { font-size: 18px;} 
     a{ font-size: 18px;}  
-    table { width: 1080px;}  
-    .banner { width: 900px;} 
+    .tablita { width: 70%;}  
+    .banner { width: 50%;} 
+    .galeria { width: 75%;}  
 
-    .token {
-        width: 180px;
-        height: 180px;
-            } 
+    .token {width: 180px; height: 180px;} 
 
     .videos {display: flex;
                 flex-direction: row;
@@ -79,16 +157,43 @@
                 justify-content: space-around;
             height: 800px;}
 
-    .vid1 { width: 560px;
-        height: 315px;
-        }
+            .vid1 { width: 500px; height: 300px; }
+            .vid2 { width: 500px; height: 300px;}  
+        
+    .img {width: 50%;}
+
+    .containerContacto { 
+
+        width: 80%;
+        margin: auto;
+        margin-bottom: 2rem;
+        display: grid;        
+        grid-template-rows: 1fr ;
+        grid-template-columns:1fr 1fr ;
+
+                            }
 
 
-    .vid2  {
-        width:560px; height: 315px;}         
+    .containerClases { 
+
+                    margin: auto;
+                    display: grid;        
+                    grid-template-rows: 1fr 1fr 1fr;
+                    grid-template-columns:1fr 1fr 1fr ;
+                    
+                    .cardClases{ width: 80%;}
+                
+                }
                         
    
-}      
+}  
+
+
+
+
+
+
+
 
 @media only screen and (min-width:1400px) {
 
@@ -97,8 +202,9 @@
     .h3, .h4 {font-size: 20px;}     
     .p  { font-size: 18px;} 
     a{ font-size: 18px;}  
-    table { width: 1080px;}  
-    .banner { width: 900px;} 
+    .tablita { width: 70%;}  
+    .banner { width: 70%;}
+    .galeria { width: 75%;}  
 
     .token {
         width: 180px;
@@ -111,13 +217,11 @@
                 justify-content: space-around;
             height: 400px;}
 
-    .vid1 { width: 560px;
-        height: 315px;
-        }
-
-
-    .vid2  {
-        height: 315px;}         
-                        
+            .vid1 { width: 600px; height: 350px; }
+            .vid2 { width: 600px; height: 350px;}  
+    
+    .img {width: 50%;} 
+    
+                            
    
 } 

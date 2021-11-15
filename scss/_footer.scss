@@ -1,5 +1,6 @@
 footer { 
 
+    
     .footer { 
 
         @include sections ();
@@ -17,5 +18,13 @@ footer {
             } 
 
      }
+
+
+     .nav-link { 
+                  
+        img {width:25px ;} }
+
+        .footerNav { 
+            padding: auto;margin: auto;}
 
 }

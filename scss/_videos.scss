@@ -13,23 +13,15 @@ main {
         .videos {
             
             align-items: center;
-            padding-left: 2rem;
-            padding-right: 2rem;
+            margin: auto;
+           
             
-            .video1{ 
-              
-                    .vid1 { 
-                            border: $colorbordes;
-                            padding: 0.4rem;
-                         }
+            .video1{
+                    .vid1 { border: $colorbordes;}
                 }
             
             .video2 { 
-
-                        .vid2 { 
-                            border: $colorbordes;
-                            padding: 0.4rem;
-                        }  
+                    .vid2 {  border: $colorbordes;}  
                     }
 
         }

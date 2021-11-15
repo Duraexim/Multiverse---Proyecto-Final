@@ -3,14 +3,23 @@ main {
     @include background();
     @include sections ();
 
-    section {    
+    
+        .jugar {
+            .p { text-align: left; width: 70%; margin: auto;}
+
+            #link { color: rgb(0, 255, 234);
+                    text-decoration: underline;
+                    &:hover { color: $colortitulos;}
+            
+            }
+        
+        }  
         
 
         .tablita {
 
-            width: 60%;
-            
-            display:block; margin: auto;
+            display:block;
+            margin: auto;
             padding: 0.8rem;
   
             .tabla {
@@ -36,6 +45,73 @@ main {
     
          }
 
+         .clases {
+            .p { text-align: left; width: 70%; margin: auto;}
+
+
+            .containerClases {
+
+                          
+            
+                .cardClases { 
+                
+                            
+                            margin: auto;
+                            margin-top: 20px;
+                            border-radius: 6px;
+                            background: $colortarjetas;
+                            box-shadow: 2px 2px 10px rgba(0, 0, 0, 1.719);
+                            cursor: default;
+                            transition: all 400ms ease;
+                    
+                            &:hover {box-shadow: 5px 5px 20px $colornavs; transform: translateY(-3%);}
+                    
+                            .foto { padding: 2rem; width:100%; }
+                    
+                            .contenido {
+
+                                    width: auto;
+                        
+                                        padding: 15px; text-align: center;
+
+
+                            
+                                        p { line-height: 1.5; color: #ffffff; text-align: center;}
+                                        h3 { font-weight: 400; margin-bottom: 15px;}
+                                        h5 { line-height: 1.5; color: $colortitulos;}
+                                        a {       
+                                            width: auto;
+                                            text-decoration: none;
+                                            display: inline-block;
+                                            padding: 1rem;
+                                            margin-top: 1rem;
+                                            color: $colornavs;
+                                            border-radius: 4px;
+                                            transition: all 400ms ease;
+                            
+                            
+                                            &:hover { 
+                                                    background: $colornavs;
+                                                    color: #fff;                                    
+                                                }
+                                            } 
+                                            
+                                               
+                                    }
+                        }     
+                }
+            
+
+
+
+         }
+
     }
 
-}
+
+
+  
+         
+       
+
+        

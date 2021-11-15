@@ -20,6 +20,8 @@ main {
 
     .juego { 
             .elJuego { 
+                
+                .p { text-align: left; width: 70%; margin: auto;}
                
             }
 
@@ -30,6 +32,8 @@ main {
                 
                     &:hover {transform: scale(1.2,1.2);}
                 }
+
+                .p { text-align: left; width: 70%; margin: auto;}
             }
        
     }
