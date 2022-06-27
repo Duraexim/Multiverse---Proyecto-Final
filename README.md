@@ -1,4 +1,4 @@
-# Multiverse-Proyecto-Final---Santiago-Mordasini
+# Multiverse
 
 Sitio simple creado para el proyecto realizado durante el curso de HTML de Coder House.
 
